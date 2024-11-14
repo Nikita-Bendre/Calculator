@@ -27,17 +27,20 @@ export class AppComponent {
 
   Substraction() {
     this.Result = this.No1 - this.No2;
-    console.log("Substraction of two number is: ")
+    console.log("Substraction of two number is")
+    return this.Result
   }
 
   Multiplication() {
     this.Result = this.No1 * this.No2;
     console.log("Multiplication of two number")
+    return this.Result
   }
 
   Division() {
     this.Result = this.No1 / this.No2;
     console.log("Division of two number")
+    return this.Result
   }
 
 }
