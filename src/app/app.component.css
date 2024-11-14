@@ -1,0 +1,30 @@
+
+.calculator {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    border-color: blueviolet;
+    text-align: center;
+  }
+  
+  .calculator h2 {
+    margin-bottom: 20px;
+    color: cadetblue;
+  }
+  
+  .calculator div {
+    margin: 10px 0;
+  }
+  
+  .buttons button {
+    margin: 5px;
+    padding: 5px 15px;
+    background-color: burlywood;
+  }
+  
+  .result h3 {
+    color: red;
+  }
+  
